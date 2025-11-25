@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte de Ventas - Primeras Dos Semanas Noviembre 2025 - Tienda CMDLT</title>
+    <title>Reporte de Ventas - Primeras Tres Semanas Noviembre 2025 - Tienda CMDLT</title>
     <style>
         * {
             margin: 0;
@@ -94,8 +94,8 @@
             height: 140px;
             border-radius: 50%;
             background: conic-gradient(
-                #FF9800 0deg 319.32deg,
-                #e6e6e6 319.32deg 360deg
+                #FF9800 0deg 315.72deg,
+                #e6e6e6 315.72deg 360deg
             );
             position: relative;
             display: flex;
@@ -108,8 +108,8 @@
             height: 140px;
             border-radius: 50%;
             background: conic-gradient(
-                #4CAF50 0deg 342deg,
-                #e6e6e6 342deg 360deg
+                #4CAF50 0deg 339.84deg,
+                #e6e6e6 339.84deg 360deg
             );
             position: relative;
             display: flex;
@@ -212,7 +212,7 @@
         
         .weeks-comparison {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 15px;
             margin-bottom: 30px;
         }
@@ -243,6 +243,15 @@
             text-align: center;
             border-left: 5px solid #4CAF50;
         }
+
+        .week-card-s3 {
+            background: white;
+            border-radius: 12px;
+            padding: 18px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            border-left: 5px solid #2196F3;
+        }
         
         .week-title {
             font-size: 1em;
@@ -263,6 +272,13 @@
             font-weight: 600;
             margin-bottom: 12px;
             color: #4CAF50;
+        }
+
+        .week-title-s3 {
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2196F3;
         }
         
         .week-metrics {
@@ -505,12 +521,12 @@
 <body>
     <div class="container">
         <div class="alert-banner">
-            🎉 RECUPERACIÓN EXITOSA: S2 casi alcanza meta (98%) • +25% mejora vs S1
+            ⚠️ ALERTA: S3 bajó a 86% (-13% vs S2) • Necesario reforzar estrategias Semana 4
         </div>
         
         <div class="header">
             <h1>📊 REPORTE DE VENTAS - TIENDA CMDLT</h1>
-            <p>Primeras Dos Semanas • 01-14 NOVIEMBRE 2025</p>
+            <p>Primeras Tres Semanas • 01-21 NOVIEMBRE 2025</p>
         </div>
         
         <div class="summary-section">
@@ -520,15 +536,15 @@
                     <div class="gauge-container">
                         <div class="gauge-circle">
                             <div class="gauge-inner">
-                                <div class="gauge-percentage">89%</div>
+                                <div class="gauge-percentage">88%</div>
                                 <div class="gauge-label">de la meta</div>
                             </div>
                         </div>
                     </div>
                     <div class="separator-line"></div>
-                    <div class="metric-main">$106,424</div>
-                    <div class="metric-meta">Meta 2 semanas: $120,000</div>
-                    <div class="deficit">Déficit: -$13,576 (-11%)</div>
+                    <div class="metric-main">$157,810</div>
+                    <div class="metric-meta">Meta 3 semanas: $180,000</div>
+                    <div class="deficit">Déficit: -$22,190 (-12%)</div>
                 </div>
                 
                 <div class="main-metric-card">
@@ -536,15 +552,15 @@
                     <div class="gauge-container">
                         <div class="gauge-circle-daily">
                             <div class="gauge-inner">
-                                <div class="gauge-percentage-good">95%</div>
+                                <div class="gauge-percentage-good">94%</div>
                                 <div class="gauge-label">de la meta</div>
                             </div>
                         </div>
                     </div>
                     <div class="separator-line"></div>
-                    <div class="metric-main-good">$7,602</div>
+                    <div class="metric-main-good">$7,515</div>
                     <div class="metric-meta">Meta diaria: $8,000</div>
-                    <div class="deficit">Déficit: -$398 (-5%)</div>
+                    <div class="deficit">Déficit: -$485 (-6%)</div>
                 </div>
             </div>
         </div>
@@ -555,7 +571,7 @@
                 
                 <div class="weeks-comparison">
                     <div class="week-card">
-                        <div class="week-title">📅 OCTUBRE S1</div>
+                        <div class="week-title">📅 OCTUBRE S4</div>
                         <div class="week-metrics">
                             <div class="week-metric">
                                 <span class="week-metric-label">Ventas:</span>
@@ -588,7 +604,7 @@
                                 <span class="week-metric-value">79%</span>
                             </div>
                             <div class="week-metric">
-                                <span class="week-metric-label">vs Oct S1:</span>
+                                <span class="week-metric-label">vs Oct S4:</span>
                                 <span class="week-metric-value surplus">+2.8%</span>
                             </div>
                         </div>
@@ -615,26 +631,48 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="week-card-s3">
+                        <div class="week-title-s3">📅 SEMANA 3</div>
+                        <div class="week-metrics">
+                            <div class="week-metric">
+                                <span class="week-metric-label">Ventas:</span>
+                                <span class="week-metric-value">$51,386</span>
+                            </div>
+                            <div class="week-metric">
+                                <span class="week-metric-label">Promedio:</span>
+                                <span class="week-metric-value">$7,341</span>
+                            </div>
+                            <div class="week-metric">
+                                <span class="week-metric-label">vs Meta:</span>
+                                <span class="week-metric-value neutral">86%</span>
+                            </div>
+                            <div class="week-metric">
+                                <span class="week-metric-label">vs S2:</span>
+                                <span class="week-metric-value deficit">-13%</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="insights-section">
-                    <div class="insights-title">💡 Insights de Recuperación</div>
+                    <div class="insights-title">⚠️ Insights de Alerta Semana 3</div>
                     <div class="insights-grid">
                         <div class="insight-item">
-                            <div class="insight-icon">🚀</div>
-                            <div class="insight-text"><strong>Recuperación extraordinaria:</strong> S2 alcanzó 99% de meta vs 79% de S1 (+20 puntos porcentuales de mejora)</div>
+                            <div class="insight-icon">📉</div>
+                            <div class="insight-text"><strong>Caída significativa:</strong> S3 bajó a 86% vs 99% de S2 (-13 puntos porcentuales)</div>
                         </div>
                         <div class="insight-item">
-                            <div class="insight-icon">📈</div>
-                            <div class="insight-text"><strong>Crecimiento acelerado:</strong> +25% vs S1 ($47,307 → $59,117) - ganaron $11,810 adicionales</div>
+                            <div class="insight-icon">⏰</div>
+                            <div class="insight-text"><strong>Pérdida de momentum:</strong> -$7,731 vs S2 ($59,117 → $51,386)</div>
                         </div>
                         <div class="insight-item">
                             <div class="insight-icon">🎯</div>
-                            <div class="insight-text"><strong>Meta casi alcanzada:</strong> S2 solo $883 por debajo de meta semanal - excelente ejecución</div>
+                            <div class="insight-text"><strong>Meta comprometida:</strong> Déficit aumentó de -$883 a -$8,614 en S3</div>
                         </div>
                         <div class="insight-item">
-                            <div class="insight-icon">💪</div>
-                            <div class="insight-text"><strong>Momentum positivo:</strong> 50% del mes completado con 89% de cumplimiento - camino a superar $200k</div>
+                            <div class="insight-icon">🚨</div>
+                            <div class="insight-text"><strong>Acción urgente:</strong> 75% del mes completado con solo 88% de cumplimiento</div>
                         </div>
                     </div>
                 </div>
@@ -642,74 +680,74 @@
         </div>
         
         <div class="analysis-section">
-            <div class="analysis-title">📊 ANÁLISIS - MOMENTUM DE RECUPERACIÓN</div>
+            <div class="analysis-title">📊 ANÁLISIS - ALERTA SEMANA 3</div>
             
             <div class="analysis-grid">
                 <div class="analysis-item">
-                    <div class="analysis-value-good">50%</div>
+                    <div class="analysis-value">75%</div>
                     <div class="analysis-label">Del mes completado</div>
-                    <div class="analysis-sublabel">Semanas 1 y 2 de 4</div>
+                    <div class="analysis-sublabel">Semanas 1, 2 y 3 de 4</div>
                 </div>
                 <div class="analysis-item">
-                    <div class="analysis-value-good">$106,424</div>
+                    <div class="analysis-value">$157,810</div>
                     <div class="analysis-label">Acumulado noviembre</div>
                     <div class="analysis-sublabel">De $240,000 meta</div>
                 </div>
                 <div class="analysis-item">
-                    <div class="analysis-value-good">89%</div>
+                    <div class="analysis-value">88%</div>
                     <div class="analysis-label">Cumplimiento promedio</div>
-                    <div class="analysis-sublabel">Las 2 semanas</div>
+                    <div class="analysis-sublabel">Las 3 semanas</div>
                 </div>
                 <div class="analysis-item">
-                    <div class="analysis-value">$133,576</div>
+                    <div class="analysis-value">$82,190</div>
                     <div class="analysis-label">Por facturar</div>
-                    <div class="analysis-sublabel">En 16 días restantes</div>
+                    <div class="analysis-sublabel">En 9 días restantes</div>
                 </div>
                 <div class="analysis-item">
-                    <div class="analysis-value">$8,348</div>
+                    <div class="analysis-value">$9,132</div>
                     <div class="analysis-label">Promedio diario requerido</div>
                     <div class="analysis-sublabel">Para alcanzar $240k</div>
                 </div>
                 <div class="analysis-item">
-                    <div class="analysis-value-good">+$1,273</div>
-                    <div class="analysis-label">Vs octubre S1</div>
-                    <div class="analysis-sublabel">+2.8% de mejora</div>
+                    <div class="analysis-value-good">+$5,273</div>
+                    <div class="analysis-label">Vs octubre S4</div>
+                    <div class="analysis-sublabel">+11% de mejora</div>
                 </div>
             </div>
         </div>
         
         <div class="action-section">
-            <div class="action-title">🚀 SEMANAS 3-4 - CAPITALIZAR MOMENTUM</div>
+            <div class="action-title">🚨 SEMANA 4 - PLAN DE RECUPERACIÓN URGENTE</div>
             
             <div class="action-list">
-                <h4>✅ Logros Extraordinarios:</h4>
+                <h4>📊 Situación Actual:</h4>
                 <ul>
-                    <li>Recuperación espectacular: S1 79% → S2 99% (+20 puntos)</li>
-                    <li>Crecimiento del 25% entre semanas ($11,810 adicionales)</li>
-                    <li>Déficit reducido de -$12,693 a solo -$883 en S2</li>
-                    <li>Promedio diario cerca de meta: $8,445 vs $8,000 requerido</li>
-                    <li>50% del mes con 89% de cumplimiento - excelente posición</li>
+                    <li>Retroceso en S3: 99% → 86% (-13 puntos vs S2)</li>
+                    <li>Pérdida de $7,731 en ventas vs semana anterior</li>
+                    <li>Déficit acumulado: $22,190 (12% por debajo de meta)</li>
+                    <li>75% del mes completado con solo 88% de cumplimiento</li>
+                    <li>Necesitamos $9,132 diarios vs $7,341 actual (+24%)</li>
                 </ul>
             </div>
             
             <div class="action-list">
-                <h4>🎯 Meta Semanas 3-4 (15-30 Nov):</h4>
+                <h4>🎯 Meta Crítica Semana 4 (22-30 Nov):</h4>
                 <ul>
-                    <li>Necesitamos $133,576 en 16 días (muy alcanzable)</li>
-                    <li>Promedio requerido: $8,348 diarios (-1% vs S2 actual)</li>
-                    <li>Con S2 como base: Solo necesitamos mantener el ritmo</li>
-                    <li>Meta conservadora: $66,788 por semana (111% de meta base)</li>
-                    <li>Meta optimista: $67,000 c/u = $241,424 total (101% mensual)</li>
+                    <li>Objetivo MÍNIMO: $82,190 en 9 días (136% de meta base)</li>
+                    <li>Promedio diario CRÍTICO: $9,132 (+24% vs S3 actual)</li>
+                    <li>Meta de recuperación: Superar los $60,000 semanales</li>
+                    <li>Focus diario: $10,000+ para compensar déficit</li>
+                    <li>Estrategia: Revisar causas de caída S3 e implementar acciones correctivas</li>
                 </ul>
             </div>
             
             <div class="projection">
-                <strong>🎯 Proyección Final Noviembre:</strong><br>
-                Con momentum de S2, <strong>89% del camino recorrido</strong>
-                <br><em>Solo necesitamos $8,348 diarios vs $8,445 actual (-1% ajuste menor)</em>
-                <br><br><strong>Escenario conservador:</strong> $240,000 (100% meta) ✅
-                <br><strong>Escenario optimista:</strong> ~$245,000 (102% meta) 🚀
-                <br><br><em>🤝 ¡Trabajando en equipo y dando el 100% estamos logrando las metas!</em>
+                <strong>⚠️ Proyección Final Noviembre:</strong><br>
+                Con caída en S3, <strong>meta mensual en RIESGO</strong>
+                <br><em>Necesitamos $9,132 diarios vs $7,341 actual (+24% incremento urgente)</em>
+                <br><br><strong>Escenario crítico:</strong> $224,000 (93% meta) ⚠️
+                <br><strong>Escenario objetivo:</strong> $240,000 (100% meta) si S4 = $82,190 🎯
+                <br><br><em>🚨 ¡S4 es DECISIVA! Necesitamos máximo esfuerzo para recuperar el momentum!</em>
             </div>
         </div>
     </div>
